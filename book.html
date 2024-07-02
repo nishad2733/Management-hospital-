@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Appointment Booking</title>
+    <link rel="stylesheet" href="book.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</head>
+<body>
+    <div class="contain">
+        <nav>
+            <div class="logo">
+                <h1>City Hospital</h1>
+            </div>
+            <i id="bar" class="fa-solid fa-bars"></i>
+            <ul>
+                <li><a href="/home.html">Home</a></li>
+                <li><a href="/Doctor/Doctor.html">Doctor</a></li>
+                <li><a href="/book.html">Appointments</a></li>
+                <li><a href="/Contact us/contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="container">
+        <h1>Book a Doctor's Appointment</h1>
+        <form id="appointmentForm">
+            <label for="name">Doctor Name</label>
+            <select name="" id="doctor">
+                <option value="Dr Alex">Prof. Dr. Md. Moyeenuzzaman</option>
+                <option value="Dr Steevn Smith">Dr. Tathagata Das </option>
+                <option value="Dr John Smith">Dr. Zahangir Alam Mukut</option>
+                <option value="Dr Amelia">Prof. Dr. Md. Taslim Uddin</option>
+                <option value="Dr Olivia">Prof. Dr. Sohely Rahman</option>
+                <option value="Dr Robert Williams">Prof. Dr. Syed Mozaffar Ahmed</option>
+                <option value="Dr Alex">Dr. Md. Ali Akbar</option>
+                <option value="Dr Steevn Smith">Dr. Syed Touhid Hassan </option>
+                <option value="Dr John Smith">Dr. Kazi Shabbir Anwar</option>
+                <option value="Dr Amelia">Dr. Zahangir Alam Mukut</option>
+                <option value="Dr Olivia">Dr. Md. Zahedur Rahman</option>
+                <option value="Dr Robert Williams">Dr. Tathagata Das</option>
+             </select>
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name"  placeholder="Enter your name">
+            <label for="name">Mobile Number:</label>
+            <input type="number" id="number" name="mobile" placeholder="Enter your Number">
+
+            <label for="date">Date</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">Time</label>
+            <!-- <input type="time" id="time" name="time" required> -->
+            <select name="" id="time">
+                <option value="Dr Alex">11AM - 00PM</option>
+                <option value="Dr Steevn Smith">16PM - 18PM</option>
+                <option value="Dr John Smith">18PM - 20PM</option>
+                <option value="Dr Amelia">10AM - 15PM</option>
+             </select>
+             <label for="name">Symptom:</label>
+             <input type="text" id="name" name="name"  placeholder="symptom ">
+            <!-- <label for="doctor">Select Doctor:</label>
+            <select id="doctor" name="doctor">
+                <option value="Dr. Smith">Dr. Smith</option>
+                <option value="Dr. Johnson">Dr. Johnson</option>
+            </select> -->
+
+            <button type="submit">Book Appointment</button>
+        </form>
+    </div>
+
+    <script src="book.js"></script>
+</body>
+</html>
