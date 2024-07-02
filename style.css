@@ -129,7 +129,7 @@ logo-1 p
     text-align: center;
     padding: 80px;
 }
-.speciality{
+/* .speciality{
     display: flex;
     
     justify-content: center;
@@ -156,6 +156,7 @@ logo-1 p
     position: relative;
     margin: auto;
     overflow: hidden;
+    margin-top: 200px;
 }
 .patientReview{
     display: flex;
