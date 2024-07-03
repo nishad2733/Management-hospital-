@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0dd460;
+    margin: 0;
+    padding: 0px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: rgb(247, 253, 253);
+    color:  rgb(12, 165, 58);
+    position: fixed;
+    top: 0%;
+    width: 100%;
+}
+ul{
+    display: flex;
+}
+ul li {
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-inline: 20px;
+    color: rgb(12, 165, 58);
+}
+ul li a:hover{
+    color: black;
+    border-bottom: 2px solid black;
+}
+.table_container{
+    margin: 180px;
+}
+.table-container h1
+{
+    margin-top: 400px;
+    margin-left: 500px;
+}
+
+.tr-header th
+{
+    /* border-style: solid; */
+    border: 1px solid ;
+} 
+.data-header td
+{
+    border: 1px solid;
+}
