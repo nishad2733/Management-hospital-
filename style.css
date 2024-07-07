@@ -160,27 +160,7 @@ logo-1 p
     text-align: center;
     padding: 80px;
 }
-/* .speciality{
-    display: flex;
-    
-    justify-content: center;
-}
-.speciality .spCard{
-    width: 300px;
-    padding: 22px;
-    background-color: #fff;
-    text-align: center;
-    border-radius: 5px;
-    margin-top: 22px;
 
-    margin-inline: 20px;
-}
-.spCard img{
-    width: 200px;
-}
-.spCard p{
-    margin-top: 11px;
-} */
 .reviews{
     width: 800px;
     height: 400px;

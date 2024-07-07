@@ -33,48 +33,6 @@ ul li a:hover{
     color: black;
     border-bottom: 2px solid black;
 }
-/* border
-{
-    border-radius: 20px;
-    border: 1px;
-} */
-
-/* .main{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-     background-color: rgb(5, 155, 30);
-     color: white;
-     height: 640px;
-} 
-.mainText h1{
-    font-size: 55px;
-    margin-top: 10px;
-    margin-left: 50px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.mainText p
-{
-    margin-top: 10px;
-    margin-left: 50px;
-    font-size: 18px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-.mainText button{
-    width: 140px;
-    height: 40px;
-    margin-left: 50px;
-    background-color: black;
-    color: white;
-    font-size: 20px;
-    border: none;
-    margin-top: 22px;
-    
-}
-.mainText button:hover{
-    border: 2px solid black;
-    background-color: transparent;
-} */
 
 
 .teams{
@@ -94,11 +52,12 @@ ul li a:hover{
 }
 .teams .card{
     width: 310px;
-    height: 440px;
+    height: 390px;
     background-color: #fff;
     border-radius: 5px;
     margin-inline: 20px;   
 }
+
 .teams-1{
     display: flex;
      margin-top: 10px;
@@ -106,7 +65,7 @@ ul li a:hover{
 }
 .teams-1 .card{
     width: 310px;
-    height: 440px;
+    height: 390px;
     background-color: #fff;
     border-radius: 5px;
     margin-inline: 20px;
@@ -135,52 +94,7 @@ ul li a:hover{
     color: rgb(0, 20, 20);
     background-color:  rgb(0, 255, 55);
 }
-/* .head{
-    text-align: center;
-    padding: 80px;
-} */
-/* .speciality{
-    display: flex;
-    
-    justify-content: center;
-}
-.speciality .spCard{
-    width: 300px;
-    padding: 22px;
-    background-color: #fff;
-    text-align: center;
-    border-radius: 5px;
-    margin-top: 22px;
-
-    margin-inline: 20px;
-}
-.spCard img{
-    width: 200px;
-}
-.spCard p{
-    margin-top: 11px;
-} */
-/* .reviews{
-    width: 800px;
-    height: 400px;
-    position: relative;
-    margin: auto;
-    overflow: hidden;
-}
-.patientReview{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 100%; 
-    position: absolute;
-    /* background-color: #fff; */
-    /* transition: all 1s ease; */
-/* } */
-/* .patientReview img{
-    width: 300px;
-    margin-inline: 18px;
-    border-radius: 4px;
-} */ 
+ 
 .contact
 {
     width: 300px;

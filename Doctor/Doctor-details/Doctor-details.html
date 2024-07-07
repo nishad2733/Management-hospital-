@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Doctor/Doctor-details/Doctor-details.css">
+    
+    <script src="https://kit.fontawesome.com/f30fac2c61.js" crossorigin="anonymous"></script>
+    
+ </head>
+ <body>
+    
+    <div class="container">
+        
+        <nav>
+            <div class="logo">
+                <h1>City Hospital</h1>
+            </div>
+            <!-- <i id="bar" class="fa-solid fa-bars"></i> -->
+            <ul>
+                <li><a href="/home.html">Home</a></li>
+                <li><a href="/Doctor/Doctor.html">Doctor</a></li>
+                <li><a href="/Appointment/appoint.html">View Appointments</a></li>
+                <li><a href="/Contact us/contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    
+      
+     
+    <div class="body-card">
+
+        <div class="card">
+            <img src="/Image/Dr. Md. Ali Akbar.jpg" alt="">
+            <h2>Dr. Md. Ali Akbar</h2>
+            <!-- <p>MBBS (DMC), D.O. (DU), MCPS (BCPS)</p> -->
+            <button id="appointmentbtn" onclick="handleBook()">Appoinment Now</button>
+        </div>
+        <div class="text">
+            <h3>TRAINING/CONFERENCE</h3>
+            <ul>
+                <li>Visiting fellowship, Stroke Intervention (Germany</li>
+                <li>Clinical fellowship, Neuro intervention (India)</li>
+                <li>Dr. Md. Ali Akbar also performed nephrological activities <br>
+                     in Sir Sallimullah Medical College, Dhaka at the inceptio <br>
+                     n of Nephrology department. He joined in National Institute of <br>
+                      kidney Diseases and Urology and worked there 2001 top 2003.</li>
+            </ul>
+             <h3 class="h3-special">SPECIAL ACHIEVEMENT</h3> 
+             <ul>
+                <li>Awarded in poster presentation in international conference of SNB 2016</li>
+                <li>First procedure of endovascular mechanical thrombectomy of acute stroke <br>
+                    in Bangladesh was done as a team leader.</li>
+                <li>Balloon loop technique is ruptured MCA aneurysm</li>
+            </ul>
+        </div>
+    </div>
+
+        
+      
+
+      <script>
+        function handleBook() {
+            // Redirect to the appointment booking page or show a booking form/modal
+            window.location.href = 'http://127.0.0.1:5500/book.html';
+        }
+    </script>
+      
+    
+ </body>
+ </html>
