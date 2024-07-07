@@ -1,4 +1,3 @@
-
 document.getElementById('appointmentForm').addEventListener('submit', async function(event) {
     event.preventDefault();
 
@@ -26,6 +25,7 @@ document.getElementById('appointmentForm').addEventListener('submit', async func
                 icon: 'success',
                 title: 'Appointment Booked',
                 text: 'Your appointment has been successfully booked.',
+                confirmButtonColor: '#8CD4F5',
                 confirmButtonText: 'OK'
             }).then((result) => {
                 if (result.isConfirmed) {

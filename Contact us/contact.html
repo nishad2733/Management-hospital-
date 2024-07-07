@@ -1,101 +1,90 @@
 <!DOCTYPE html>
- <html lang="en">
- <head>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact Us</title>
     <link rel="stylesheet" href="/Contact us/contact.css">
-    
     <script src="https://kit.fontawesome.com/f30fac2c61.js" crossorigin="anonymous"></script>
-    
- </head>
- <body>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> <!-- SweetAlert library -->
+</head>
+<body>
     <div class="container">
-        
         <nav>
             <div class="logo">
-                <h1> City Hospital</h1>
+                <h1>City Hospital</h1>
             </div>
             <ul>
                 <li><a href="/home.html">Home</a></li>
-                <li>  <a href="/Doctor/Doctor.html">Doctor</a></button></li>
+                <li><a href="/Doctor/Doctor.html">Doctor</a></li>
                 <li><a href="/Appointment/appoint.html">Appointments</a></li>
                 <li><a href="/Contact us/contact.html">Contact Us</a></li>
             </ul>
         </nav>
-    <section>
-    
-        <div class="section-header">
-          <div class="container">
-            <h2>Contact Us</h2>
-            <p>City Hospital Limited Dhaka is the newest hospital one of the largest Bangladeshi health care provider. The hospital is a 150 beds and tertiary care facility, delivering international standard health care at an affordable price to the peoples of Bangladesh.</p>
-          </div>
-        </div>
-        
-        <div class="container">
-          <div class="row">
-            
-            <div class="contact-info">
-              <div class="contact-info-item">
-                <div class="contact-info-icon">
-                  <i class="fas fa-home"></i>
+        <section>
+            <div class="section-header">
+                <div class="container">
+                    <h2>Contact Us</h2>
+                    <p>City Hospital Limited Dhaka is the newest hospital one of the largest Bangladeshi health care provider. The hospital is a 150 beds and tertiary care facility, delivering international standard health care at an affordable price to the peoples of Bangladesh.</p>
                 </div>
-                
-                <div class="contact-info-content">
-                  <h4>Address</h4>
-                  <p>78, Satmasjid Road (West of Road 27),<br/>  Dhanmondi, Dhaka-1209</p>
-                </div>
-              </div>
-              
-              <div class="contact-info-item">
-                <div class="contact-info-icon">
-                  <i class="fas fa-phone"></i>
-                </div>
-                
-                <div class="contact-info-content">
-                  <h4>Phone</h4>
-                  <p>+8801766XXXXXXX</p>
-                </div>
-              </div>
-              
-              <div class="contact-info-item">
-                <div class="contact-info-icon">
-                  <i class="fas fa-envelope"></i>
-                </div>
-                
-                <div class="contact-info-content">
-                  <h4>Email</h4>
-                 <p>info@cityhospital.com</p>
-                </div>
-              </div>
             </div>
-            
-            <div class="contact-form">
-              <form action="" id="contact-form">
-                <h2>Send Message</h2>
-                <div class="input-box">
-                  <input type="text" required="true" name="">
-                  <span>Full Name</span>
+            <div class="container">
+                <div class="row">
+                    <div class="contact-info">
+                        <div class="contact-info-item">
+                            <div class="contact-info-icon">
+                                <i class="fas fa-home"></i>
+                            </div>
+                            <div class="contact-info-content">
+                                <h4>Address</h4>
+                                <p>78, Satmasjid Road (West of Road 27),<br/> Dhanmondi, Dhaka-1209</p>
+                            </div>
+                        </div>
+                        <div class="contact-info-item">
+                            <div class="contact-info-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-info-content">
+                                <h4>Phone</h4>
+                                <p>+8801766XXXXXXX</p>
+                            </div>
+                        </div>
+                        <div class="contact-info-item">
+                            <div class="contact-info-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-info-content">
+                                <h4>Email</h4>
+                                <p>info@cityhospital.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                        <form action="" id="contact-form">
+                            <h2>Send Message</h2>
+                            <div class="input-box">
+                                <input type="text" required="true" name="fullName">
+                                <span>Full Name</span>
+                            </div>
+                            <div class="input-box">
+                                <input type="email" required="true" name="email">
+                                <span>Email</span>
+                            </div>
+                            <div class="input-box">
+                                <textarea required="true" name="message"></textarea>
+                                <span>Type your Message...</span>
+                            </div>
+                            <div class="input-box">
+                                <input type="submit" value="Send" name="">
+                            </div>
+                        </form>
+                    </div>
                 </div>
-                
-                <div class="input-box">
-                  <input type="email" required="true" name="">
-                  <span>Email</span>
-                </div>
-                
-                <div class="input-box">
-                  <textarea required="true" name=""></textarea>
-                  <span>Type your Message...</span>
-                </div>
-                
-                <div class="input-box">
-                  <input type="submit" value="Send" name="">
-                </div>
-              </form>
             </div>
+        </section>
+        <script src="/Contact us/contact.js">
             
-          </div>
-        </div>
-      </section>
- </body>
- </html>
+        </script>
+    </div>
+</body>
+</html>
